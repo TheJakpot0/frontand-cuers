@@ -19,11 +19,12 @@
 
 .projects__row {
 	display: flex;
-	/* flex-wrap: wrap; */
+	 flex-wrap: wrap;
 }
 
 .projects__item {
 	width: 33.33333%;
+	margin-bottom: 50px;
 }
 /*   Card */
 .card {
