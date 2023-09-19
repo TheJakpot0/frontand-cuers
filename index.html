@@ -1,159 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Adik Workshop</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .wrap{
-            margin: 50px 0;
-            display :flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 30px;
-        }
-
-       .btn{
-           font-family: sans-serif;
-           font-size: 24px;
-           font-weight: 600;
-           border-radius: 40px;
-           padding: 22px 64px;
-           text-decoration: none;
-           color: #000;
-       }
-        .btn1{
-            background: yellow;
-        }
-        .btn1:hover{
-            background: yellowgreen;
-
-            transition: background-color .2s linear;
-        }
-        .btn2{
-            background: red;
-        }
-        .btn2:hover{
-            background: darkred;
-
-            transition: background-color .2s linear;
-        }
-        .btn3{
-            background: green;
-        }
-        .btn3:hover{
-            background: darkgreen;
-
-            transition: background-color .2s linear;
-        }
-        .btn4{
-            background: blue;
-        }
-        .btn4:hover{
-            background: darkblue;
-
-            transition: background-color .2s linear;
-        }
-
-    /*  Wanished Button  */
-        .wanished-button{
-            border: 0;
-            background-color: rgba(5,5,5, 0.5);
-            font-family: sans-serif;
-            font-size: 24px;
-            font-weight: 600;
-            border-radius: 40px;
-            padding: 22px 64px;
-            cursor: pointer;
-            color: #000;
-        }
-        .wanished-button:hover{
-            border: 1px solid black;
-        }
-
-    /*   Card */
-        .card{
-            width: 322px;
-            height: 328px;
-            background: white;
-            box-shadow: 0 4px 50px 0 black;
-
-            text-align: center;
-
-            border-radius: 30px;
-
-            transition: box-shadow .2s linear;
-
-        }
-
-        .card:hover{
-            box-shadow: 0 4px 100px 0 black;
-
-        }
-
-        .card__header{
-            border-radius: 30px 30px 0 0;
-            overflow: hidden;
-            width: 100%;
-            height: 228px;
-        }
-
-
-
-        .card__header img{
-            width: 100%;
-            height: 100%;
-
-            object-fit: cover;
-        }
-
-        .card__footer{
-            padding: 20px 26px;
-        }
-
-        .card__content{
-            margin-bottom: 10px;
-            font-size: 20px;
-            font-family: 'Times New Roman', sans-serif;
-            text-transform: uppercase;
-        }
-
-        .card__button{
-            transform: translateY(35px);
-    border-radius: 18px;
-            border: none;
-            color: #fff;
-            padding: 16px 69px;
-
-            background: -webkit-linear-gradient(red, yellow);
-            fsz
-        }
-    </style>
+	<meta charset="UTF-8">
+	<title>Adik Workshop</title>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-<div class="wrap">
-    <a href="#!" class="btn btn1">Click me !</a>
-    <a href="#!" class="btn btn2">Click me !</a>
-    <a href="#!" class="btn btn3">Click me !</a>
-    <a href="#!" class="btn btn4">Click me !</a>
-    <button class="wanished-button">Help me !</button>
-</div>
 
-<!-- Card  -->
-<div class="card">
-    <div class="card__header">
-        <img src="https://placehold.it/500x500" alt="placeholder">
-    </div>
-    <div class="card__footer">
-        <p class="card__content">Card content</p>
-        <button class="card__button">Buy it</button>
-    </div>
-</div>
+	<section class="projects">
+		<div class="container">
+
+			<h2 class='projects__title'>Проекты</h2>
+
+			<div class="projects__row">
+
+				<!-- Card  -->
+				<div class="projects__item">
+					<div class="card">
+						<div class="card__header">
+							<a href="tic-tac-toe/tic-tac-toe.html">
+								<img src="https://placehold.it/500x500" alt="placeholder">
+							</a>
+						</div>
+						<div class="card__footer">
+							<a class="card__content">Tic Tac Toe</a>
+							<button class="card__button">Go</button>
+						</div>
+					</div>
+				</div>
+				<!-- Card  -->
+				<div class="projects__item">
+					<div class="card">
+						<div class="card__header">
+							<a href="tic-tac-toe/tic-tac-toe.html">
+								<img src="https://placehold.it/500x500" alt="placeholder">
+							</a>
+						</div>
+						<div class="card__footer">
+							<a class="card__content">Tic Tac Toe</a>
+							<button class="card__button">Go</button>
+						</div>
+					</div>
+				</div>
+				<!-- Card  -->
+				<div class="projects__item">
+					<div class="card">
+						<div class="card__header">
+							<a href="tic-tac-toe/tic-tac-toe.html">
+								<img src="https://placehold.it/500x500" alt="placeholder">
+							</a>
+						</div>
+						<div class="card__footer">
+							<a class="card__content">Tic Tac Toe</a>
+							<button class="card__button">Go</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div> <!-- /.projects__row -->
+
+		</div>
+	</section>
+
+
 </body>
+
 </html>
